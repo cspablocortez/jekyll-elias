@@ -1,2 +1,0 @@
-# jekyll-elias
- jekyll setup
