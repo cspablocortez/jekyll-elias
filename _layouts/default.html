@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/skeleton.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <title>{{ page.title }}</title>
 </head>
 <body>
-    {% include navigation.html %}
-    {{ content }}
+    <div class="container">
+        {% include navigation.html %}
+        {{ content }}
+    </div>
 </body>
 </html>
