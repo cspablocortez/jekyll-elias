@@ -51,4 +51,4 @@ More about [Front Matter](https://jekyllrb.com/docs/front-matter/)
 
 <hr>
 
-At the end of class we left off [here](https://jekyllrb.com/docs/step-by-step/04-layouts/#use-layouts).
+At the end of class we left off <https://jekyllrb.com/docs/step-by-step/08-blogging/>.

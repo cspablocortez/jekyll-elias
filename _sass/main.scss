@@ -1,3 +1,7 @@
+:root {
+    --nav-link: rgba(0, 0, 0, 0.6);
+}
+
 nav {
     display: flex;
     justify-content: flex-end;
@@ -9,4 +13,6 @@ nav a {
     margin-bottom: 2rem;
     margin-left: 2rem;
     margin-right: 0rem;
+    text-decoration: none;
+    color: var(--nav-link);
 }
