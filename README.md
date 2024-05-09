@@ -47,6 +47,7 @@ title: Home
 ```
 
 More about [Liquid](https://jekyllrb.com/docs/liquid/)
+
 More about [Front Matter](https://jekyllrb.com/docs/front-matter/)
 
 <hr>
