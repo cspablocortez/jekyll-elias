@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/normalize.css">
-    <link rel="stylesheet" href="/assets/css/skeleton.css">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="icon" href="/assets/icons/">
-    <title>{{ page.title }}</title>
+    {% include head.html %}
 </head>
+
 <body>
-    <div class="container">
-        {% include navigation.html %}
-        {{ content }}
+    <div class="wrapper">
+        <header class="wrapper-header">
+            {% include header.html %}
+        </header>
+
+        <main class="wrapper-main">
+            <div class="main-content">
+            {{ content }}
+            </div>
+        </main>
     </div>
+
+    <footer class="wrapper-footer">
+        {% include footer.html %}
+    </footer>
 </body>
 </html>
