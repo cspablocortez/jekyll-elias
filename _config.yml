@@ -1,7 +1,8 @@
 # Site Specific Configuration
 name: LightSpeed
 description: A simple Jekyll theme
-url: https://example.com
+url: https://cspablocortez.github.io
+baseurl: /jekyll-elias
 author: tajacks
 timezone: America/Toronto
 timezone_short: ET
