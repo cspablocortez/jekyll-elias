@@ -2,6 +2,12 @@
 
 Jekyll is a static site generator to transform plaintext to static websites.
 
+## To run your app:
+
+```sh
+bundle exec jekyll serve
+```
+
 ## Installation
 
 Create a new directory for your project and install the gem:
